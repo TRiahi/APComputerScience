@@ -1,21 +1,21 @@
 #BlueJ package file
 objectbench.height=76
 objectbench.width=658
-package.editor.height=593
+package.editor.height=592
 package.editor.width=532
 package.editor.x=0
-package.editor.y=0
+package.editor.y=4
 package.numDependencies=0
 package.numTargets=1
 package.showExtends=true
 package.showUses=true
 project.charset=UTF-8
-target1.editor.height=764
-target1.editor.width=679
+target1.editor.height=768
+target1.editor.width=680
 target1.editor.x=0
-target1.editor.y=1
+target1.editor.y=0
 target1.height=50
-target1.name=CalculationsV4
+target1.name=CalculationsV5
 target1.naviview.expanded=true
 target1.showInterface=false
 target1.type=ClassTarget

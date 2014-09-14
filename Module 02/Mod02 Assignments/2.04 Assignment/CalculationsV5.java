@@ -9,7 +9,7 @@
  * @author Bill Jordan; A.Ross
  * @version 01/19/07; 06/24/12
  */
-public class CalculationsV4
+public class CalculationsV5
 {
     public static void main(String[ ] args)
     {
@@ -23,9 +23,8 @@ public class CalculationsV4
         System.out.println( "Addition" );
         System.out.print( iAdditionNum1 + " plus " + iAdditionNum2 + " equals " );
         System.out.println( iAdditionNum1 + iAdditionNum2 );
-        System.out.println( 43.21 + 3.14 );
-        System.out.println();
-
+        System.out.print( dAdditionNum1 + " plus " + dAdditionNum2 + " equals " );
+        System.out.println( dAdditionNum1 + dAdditionNum2 );
         System.out.println();
         
         // Subtraction
@@ -33,9 +32,14 @@ public class CalculationsV4
         int iSubtractionNum2 = 9;
         int iSubtractionNum3 = 25;
         
+        double dSubtractionNum1 = 3.14;
+        double dSubtractionNum2 = 5.0;
+        
         System.out.println( "Subtraction" );
         System.out.print( iSubtractionNum1 + " minus " + iSubtractionNum2 + " minus " +  iSubtractionNum3 + " equals ");
         System.out.println( iSubtractionNum1 - iSubtractionNum2 - iSubtractionNum3 );
+        //STOPPED HERE FOR TODAY ON 2.04 ASSIGNMENT
+        System.out.print( dSubtractionNum1 + dSubtractionNum2 );
         System.out.println( 3.14 - 5.0 );
         System.out.println();
         
