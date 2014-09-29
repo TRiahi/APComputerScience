@@ -19,6 +19,7 @@ public class CurrencyConversionV2
 {
     public static void main(String [ ] args)
     {
+        System.out.print("Please enter your name (first last): ");
         double startingUsDollars = 5000.00;     // local variable for US Dollars
         double pesosSpent = 7210.25;            // local variable for Mexican pesos spent
         double yenSpent = 99939.75;             // local variable for Yen spent
@@ -45,7 +46,7 @@ public class CurrencyConversionV2
         System.out.print("Please enter the peso exchange rate:  ");
         pesoExchangeRate = in.nextDouble();
         System.out.println();
-        
+        String firstName = in.next();
         System.out.print("Please enter the euro exchange rate:  ");
         euroExchangeRate = in.nextDouble();
         System.out.println();
