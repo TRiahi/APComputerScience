@@ -194,5 +194,11 @@ public class Hurricanes2
         System.out.println("Number of Cateogry 4: " + c4);
         System.out.println("Number of Cateogry 5: " + c5);
         
+   
+for (i = 0; i <= 10; i++) {
+if ((i % 3) == 1) {
+System.out.print(i + " ");
+}
+}
     }//end main()
 }//end Hurricanes

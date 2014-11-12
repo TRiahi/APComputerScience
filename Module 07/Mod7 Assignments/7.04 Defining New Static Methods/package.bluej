@@ -1,0 +1,25 @@
+#BlueJ package file
+objectbench.height=76
+objectbench.width=686
+package.editor.height=608
+package.editor.width=560
+package.editor.x=0
+package.editor.y=1
+package.numDependencies=0
+package.numTargets=1
+package.showExtends=true
+package.showUses=true
+project.charset=UTF-8
+target1.editor.height=757
+target1.editor.width=696
+target1.editor.x=10
+target1.editor.y=11
+target1.height=50
+target1.name=WeightOnPlanetsV1
+target1.naviview.expanded=false
+target1.showInterface=false
+target1.type=ClassTarget
+target1.typeParameters=
+target1.width=170
+target1.x=70
+target1.y=10
