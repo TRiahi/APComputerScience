@@ -1,0 +1,24 @@
+#BlueJ package file
+objectbench.height=76
+objectbench.width=673
+package.editor.height=608
+package.editor.width=547
+package.editor.x=0
+package.editor.y=0
+package.numDependencies=0
+package.numTargets=1
+package.showExtends=true
+package.showUses=true
+project.charset=UTF-8
+target1.editor.height=764
+target1.editor.width=666
+target1.editor.x=0
+target1.editor.y=0
+target1.height=50
+target1.name=Darts
+target1.showInterface=false
+target1.type=ClassTarget
+target1.typeParameters=
+target1.width=80
+target1.x=80
+target1.y=10
