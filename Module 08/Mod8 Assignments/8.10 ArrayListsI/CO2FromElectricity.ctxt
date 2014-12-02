@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=mb\ mp
+comment0.target=CO2FromElectricity(java.util.ArrayList,\ java.util.ArrayList)
+comment1.params=
+comment1.target=double\ calcAverageBill()
+comment2.params=
+comment2.target=double\ calcAveragePrice()
+comment3.params=avgBill\ avgPrice
+comment3.target=double\ calcElectricityCO2(double,\ double)
+numComments=4

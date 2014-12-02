@@ -1,13 +1,16 @@
 public class CO2FootprintV1{
     
+    //declaring glob var
     double gallonsOfGas;
     
+    //default constructor
     CO2FootprintV1(double g){
         
         gallonsOfGas = g;
         
     }
     
+    //calculating the pounds of gas
     public double poundsOfGas(){
         
         double temp1 = 0;
@@ -21,6 +24,7 @@ public class CO2FootprintV1{
         
     }
     
+    //calculating the tons of gas
     public double tonsOfGas(){
         
         double temp1 = 0;
