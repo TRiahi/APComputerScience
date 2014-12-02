@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=d\ dis\ disMin\ disMax\ s\ e\ p\ g\ m\ mMin\ mMax\ c\ cMin\ cMax
+comment0.target=AnnualFuelUse(double[],\ double,\ double,\ double,\ double[],\ double[],\ double[],\ double[],\ double,\ double,\ double,\ double,\ double,\ double)
+comment1.params=
+comment1.target=double[]\ distance()
+comment2.params=
+comment2.target=double[]\ mpgcalc()
+comment3.params=
+comment3.target=double[]\ cost()
+numComments=4

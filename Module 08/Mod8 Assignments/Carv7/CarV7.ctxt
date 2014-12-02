@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=ms\ me\ g\ mpg\ dis\ pri\ tot
+comment0.target=CarV7(double,\ double,\ double,\ double,\ double,\ double,\ double)
+comment1.params=
+comment1.target=double\ distance()
+comment2.params=
+comment2.target=double\ mpgcalc()
+comment3.params=
+comment3.target=double\ gpmcalc()
+comment4.params=
+comment4.target=double\ cost()
+numComments=5

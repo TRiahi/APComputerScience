@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.params=milesStart\ milesEnd
-comment0.target=double\ distance(double,\ double)
-comment1.params=milesStart\ milesEnd\ gallons
-comment1.target=double\ mpgcalc(double,\ double,\ double)
-comment2.params=args
-comment2.target=void\ main(java.lang.String[])
-numComments=3
