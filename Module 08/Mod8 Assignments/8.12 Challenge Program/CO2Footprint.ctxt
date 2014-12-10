@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=g\ e\ w\ r\ b
+comment0.target=CO2Footprint(double[],\ double[],\ double[],\ double[],\ double[])
+comment1.params=
+comment1.target=double[]\ emissionReductionBulbs()
+comment2.params=
+comment2.target=double[]\ emissionReduction()
+numComments=3
