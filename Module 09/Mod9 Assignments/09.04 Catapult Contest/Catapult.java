@@ -19,4 +19,20 @@ public class Catapult
         
     }
     
+    public double [] toRadians(){
+        
+        double [] total = {};
+        
+        return total;
+    
+    }
+    
+    public double [] toRadians(){
+     
+        double [] total = {};
+        
+        return total;
+        
+    }
+    
 }
