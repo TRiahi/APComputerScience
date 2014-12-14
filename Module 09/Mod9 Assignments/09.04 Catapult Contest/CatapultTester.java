@@ -1,17 +1,21 @@
 /**
- * Write a description of class CatapultTester here.
+ * A progran to claculate how far something goes
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author David Johnson
+ * @version 12/14/14
  */
 public class CatapultTester{
     
     public static void main(String[] args){
         
-        double [] speed = {20,25,30,35,40,45,50};
+        double [] velocity = {20,25,30,35,40,45,50};
         double [] degrees = {25,30,35,40,45,50};
         
         System.out.printf("%s", "MPG");
+        
+        Catapult vars = new Catapult(velocity,degrees);
+        
+        double [] distance = vars.calcDistance();
         
         for (int i = 0; i < degrees.length; i++){
         
@@ -20,11 +24,21 @@ public class CatapultTester{
         }
         
         System.out.printf("\n");
-        System.out.println("=======================================================");
+        System.out.println("===============================================================");
         
-        for (int i = 0; i < speed.length; i++){
+        for(int i = 0; i < distance.length; i++)
+        {
             
-            System.out.printf("%1.0f\n",speed[i]);
+            System.out.printf( "%2.0f ", velocity[i]);
+            
+            for(int f = 0; f < distance.length; f++)
+            {
+                
+                System.out.printf( "%8.1f ",  distance[i]);
+            
+            }
+            
+            System.out.printf("\n");
         
         }
         
