@@ -107,3 +107,18 @@ footer{
 .fab > core-icon::shadow path {
   fill: #fff;
 }
+
+.button{
+  width: 225px;
+  height: 125px;
+  background-color: #757575;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.25);
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0.2s;
+  padding: 10px;
+  font-size: 15px;
+  color: #ffffff;
+  text-decoration: none;
+}
