@@ -1,33 +1,38 @@
-
 /**
- * Write a description of class Triangle here.
+ * Triangle
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author David Johnson
+ * @version 11/23/15
  */
 public class Triangle
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * Constructor for objects of class Triangle
-     */
-    public Triangle()
-    {
-        // initialise instance variables
-        x = 0;
+   
+    int sideA, sideB, sideC;
+    
+    public Triangle (int sa, int sb, int sc){
+        
+        sideA = sa;
+        sideB = sb;
+        sideC = sc;
+        
     }
-
-    /**
-     * An example of a method - replace this comment with your own
-     * 
-     * @param  y   a sample parameter for a method
-     * @return     the sum of x and y 
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    
+    public int getSideA(){
+        
+        return sideA;
+        
     }
+    
+    public int getSideB(){
+    
+        return sideB;
+    
+    }
+    
+    public int getSideC(){
+    
+        return sideC;
+    
+    }
+    
 }

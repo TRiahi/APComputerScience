@@ -1,8 +1,10 @@
 #BlueJ class context
-comment0.params=
-comment0.target=Triangle()
-comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Triangle\r\n
-comment1.params=y
-comment1.target=int\ sampleMethod(int)
-comment1.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
-numComments=2
+comment0.params=sa\ sb\ sc
+comment0.target=Triangle(int,\ int,\ int)
+comment1.params=
+comment1.target=int\ getSideA()
+comment2.params=
+comment2.target=int\ getSideB()
+comment3.params=
+comment3.target=int\ getSideC()
+numComments=4
