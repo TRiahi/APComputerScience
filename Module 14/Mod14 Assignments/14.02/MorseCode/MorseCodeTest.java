@@ -1,8 +1,8 @@
 /**
- * Write a description of class MorseCodeTest here.
+ * Morse code translator
  * 
- * @author (your name) 
- * @version (a version number or a date)
+ * @author David Johnson
+ * @version 11/27/15
  */
 
 //importing required libs
@@ -14,23 +14,32 @@ public class MorseCodeTest
 {
    
     public static void main(String[] args)throws IOException{
-    
-        File morsecode = new File("../morsecodesource.txt");
-        Scanner morsecodeds = new Scanner(morsecode);
         
-        String letters [] = new String[35];
-        int i = 0;
+        Scanner in = new Scanner(System.in);
+        System.out.print("Please enter the text you'd like to convert to morse code: ");
+        String message = in.nextLine();
+        String letters [] = new String[36];
         
-        //load all the info into the array
-        while (morsecodeds.hasNext()){
-           
-           letters[i] += morsecodeds.next();
-           
-           i++;
-           
+        MorseCode vars = new MorseCode(message,letters);
+        
+        letters = vars.loadMorseCode(letters);
+          
+        if (letters[35].length() > 0){
+            
+            //System.out.println("SYSTEM: Confirmed");
+            
+        }else{
+            
+            System.out.println("SYSTEM: Error system may not work because files are missing.");
+            System.exit(1);
+            
         }
         
-        System.out.printf("%s", letters);
+        String convertedMessage = vars.convertEnglishToMorse(message,letters);
+        
+        System.out.println("========================================");
+        System.out.println("Your original message: " + message);
+        System.out.println("Translated message: " + convertedMessage);
     
     } 
     
