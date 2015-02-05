@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=high
+comment0.target=PrimeNumbers(int)
+comment1.params=
+comment1.target=java.util.List\ getPrimeNumbers()
+numComments=2

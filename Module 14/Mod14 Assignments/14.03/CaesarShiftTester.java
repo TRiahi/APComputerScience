@@ -42,14 +42,21 @@ public class CaesarShiftTester{
                 CaesarShiftEncryption vars = new CaesarShiftEncryption(messageEncrypt);
                 String encryptedMessage = vars.encrypt();
                 System.out.println("Your message has been encrypted to -> " + encryptedMessage);
-        
                 System.out.println("======================================================");
                 System.out.println("Type what you want to do next (type 4 to see the menu): ");
                 menu = in.nextInt();
                 
             }else if (menu == 2){
                 
-                String messageDecrypt = in.nextLine();
+                in.nextLine();
+                System.out.println("Type the message you want to decrypt: ");
+                String messageEncrypt = in.nextLine();
+                CaesarShiftEncryption vars = new CaesarShiftEncryption(messageEncrypt);
+                String decryptMessage = vars.decrypt();
+                System.out.println("Your message has been decrypted to -> " + decryptMessage);
+                System.out.println("======================================================");
+                System.out.println("Type what you want to do next (type 4 to see the menu): ");
+                menu = in.nextInt();
                 
             }else if(menu == 3){
                 

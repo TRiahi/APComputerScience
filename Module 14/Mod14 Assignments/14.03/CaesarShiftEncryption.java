@@ -43,4 +43,31 @@ public class CaesarShiftEncryption{
         
     }
     
+    public String decrypt(){
+        
+         String [] letters = {"A","B","C","D","E","F","G","H","I","J","K","L","N","M","O"
+        ,"P","Q","R","S","T","U","V","W","X","Y","Z"};
+        
+        String letter = "";
+        
+        int i = 0, intLetter = 0;
+        int messageLength = messageEncryptDecrypt.length();
+        messageEncryptDecrypt = messageEncryptDecrypt.toUpperCase();
+        
+        String decryptedMessage = "";
+        
+        while (i < messageLength){
+            
+            letter = messageEncryptDecrypt.substring(i, i + 1);
+            intLetter = Integer.parseInt(letter);
+            decryptedMessage = decryptedMessage + "" + letters[intLetter];
+            
+            i++;
+            
+        }
+        
+        return decryptedMessage;
+        
+    }
+    
 }
