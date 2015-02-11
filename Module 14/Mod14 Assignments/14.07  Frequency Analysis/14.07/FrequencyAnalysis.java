@@ -10,6 +10,7 @@ import java.util.Scanner;
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter; 
+import java.util.ArrayList;
 
 public class FrequencyAnalysis{
      
@@ -69,6 +70,14 @@ public class FrequencyAnalysis{
         }
         
         outFile.close ();
+        
+       ArrayList < Integer > a = new ArrayList < Integer >();
+ArrayList b = a;
+a.add(new Integer(4));
+b.add(new Integer(5));
+a.add(new Integer(6));
+a.add(new Integer(7));
+System.out.println(a.size());;
          
     }
     
