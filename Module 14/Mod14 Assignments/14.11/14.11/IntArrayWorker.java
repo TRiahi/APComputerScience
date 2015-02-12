@@ -98,5 +98,59 @@ public class IntArrayWorker
       }
     }
   }
- 
+  
+  public int getCount(int a){
+      
+      return a;
+      
+  }
+  
+  public int getLargest(int [][] largest){
+      
+      int length1 = largest.length;
+      int i = 0, f = 0, biggest = 0;
+      
+      while (i < length1){
+          
+          if (biggest < largest[i][f]){
+              
+              biggest = largest[i][f];
+              
+          }
+          
+          while (f < length1){
+              
+            if (biggest < largest[i][f]){
+              
+              biggest = largest[i][f];
+              
+            }
+              
+              f++;
+              
+          }
+          
+          i++;
+          f = 0;
+          
+      }
+      
+      return biggest;
+      
+  }
+  
+  public int getColTotal(int row, int [][] nums){
+      
+      int i = 0;
+      
+      while (i < nums[row].length){
+     
+          i++;
+          
+      }
+      
+      return i;
+      
+  }
+  
 }
