@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Homework()
+comment1.params=
+comment1.target=int\ getPagesRead()
+comment2.params=p
+comment2.target=void\ setPagesRead(int)
+comment3.params=
+comment3.target=java.lang.String\ getHomework()
+comment4.params=hw
+comment4.target=void\ setHomework(java.lang.String)
+comment5.params=p
+comment5.target=void\ createAssignment(int)
+numComments=6

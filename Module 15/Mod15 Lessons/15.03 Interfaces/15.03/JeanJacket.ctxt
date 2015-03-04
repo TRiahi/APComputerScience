@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=nb
+comment0.target=JeanJacket(int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ jeanJacket\r\n
+comment1.params=
+comment1.target=void\ design()
+comment2.params=
+comment2.target=int\ getNumBeads()
+comment3.params=
+comment3.target=java.lang.String\ getPattern()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=
+comment5.target=void\ fadeJeans()
+comment6.params=
+comment6.target=void\ addHoles()
+numComments=7

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=n\ nV
+comment0.target=Candidate(java.lang.String,\ int)
+comment1.params=name\ numVotes
+comment1.target=java.lang.String\ toString(java.lang.String,\ int)
+comment2.params=election
+comment2.target=void\ printVotes(java.lang.String[][])
+comment3.params=election
+comment3.target=int\ getTotal(java.lang.String[][])
+comment4.params=election\ voteTotal
+comment4.target=void\ getPercent(java.lang.String[][],\ int)
+numComments=5
