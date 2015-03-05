@@ -2,7 +2,7 @@
 /**
  *  LargestInStock2 
  * 
- * ©FLVS 2007
+ * FLVS 2007
  * @author R. Enger 
  * @version 6/10/2007
  */
