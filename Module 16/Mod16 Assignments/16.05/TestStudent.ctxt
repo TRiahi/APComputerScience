@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=myClass
+comment1.target=void\ printBook(java.util.ArrayList)
+comment2.params=index\ name\ myClass
+comment2.target=void\ replaceName(int,\ java.lang.String,\ java.util.ArrayList)
+comment3.params=index\ grade\ myClass
+comment3.target=void\ replaceQuiz(int,\ int,\ java.util.ArrayList)
+comment4.params=name\ quizzes\ indexi\ myClass
+comment4.target=void\ replaceStudent(java.lang.String,\ int[],\ int[],\ java.util.ArrayList)
+comment5.params=name\ quizzes\ myClass
+comment5.target=void\ insertStudent(java.lang.String,\ int[],\ java.util.ArrayList)
+comment6.params=indexi\ name\ quizzes\ myClass
+comment6.target=void\ deleteStudent(int[],\ java.lang.String,\ int[],\ java.util.ArrayList)
+numComments=7

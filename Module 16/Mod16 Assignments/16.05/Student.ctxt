@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=n\ q1\ q2\ q3\ q4\ q5
+comment0.target=Student(java.lang.String,\ int,\ int,\ int,\ int,\ int)
+comment1.params=qNumber
+comment1.target=int\ getQuiz(int)
+comment2.params=qNumber\ qGrade
+comment2.target=void\ setQuiz(int,\ int)
+numComments=3
