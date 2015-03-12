@@ -92,17 +92,40 @@ public class TestStudent{
         
         int alLength = myClass.size();
         
-        for (int i = 0; i < alLength; i++){
+        myClass.set(indexi[0],name);
+        
+        for (int i = 1; i < alLength; i++){
+            
+            myClass.set(indexi[i], quizzes[i]);
+            
         }
         
     }
     
     public static void insertStudent(String name, int[] quizzes, ArrayList myClass){
-    
+        
+        int alLength = myClass.size();
+        
+        myClass.add(name);
+        
+        for (int i = 1; i < alLength; i++){
+            
+            myClass.add(quizzes[i]);
+            
+        }
+        
     }
     
     public static void deleteStudent(int[] indexi,String name, int[] quizzes, ArrayList myClass){
-    
+         
+        int alLength = myClass.size();
+        
+        for (int i = 1; i < alLength; i++){
+             
+            myClass.remove(indexi[i]);
+             
+        }
+        
     }
     
 }

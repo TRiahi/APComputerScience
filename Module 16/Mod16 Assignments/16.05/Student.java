@@ -20,10 +20,4 @@ public class Student{
         
     }
     
-    public void setQuiz(int qNumber, int qGrade){
-        
-        
-        
-    }
-    
 }
