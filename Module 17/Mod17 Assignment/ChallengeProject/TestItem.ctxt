@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=hardware\ arraySize
+comment1.target=void\ printInventory(java.lang.String[][],\ int)
+comment2.params=hardware\ arraySize\ option
+comment2.target=java.lang.String[]\ sortID(java.lang.String[][],\ int,\ int)
+comment3.params=hardware\ arraySize\ option
+comment3.target=java.lang.String[]\ sortName(java.lang.String[][],\ int,\ int)
+comment4.params=hardware\ arraySize\ option
+comment4.target=java.lang.String[]\ sortInStore(java.lang.String[][],\ int,\ int)
+comment5.params=hardware\ arraySize\ option
+comment5.target=java.lang.String[]\ sortPrice(java.lang.String[][],\ int,\ int)
+numComments=6
