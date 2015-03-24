@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=myMusic\ arraySize
+comment1.target=void\ printMusic(java.lang.String[][],\ int)
+comment2.params=myMusic\ arraySize\ search
+comment2.target=java.util.ArrayList\ searchTitle(java.lang.String[][],\ int,\ java.lang.String)
+comment3.params=myMusic\ arraySize\ search
+comment3.target=java.util.ArrayList\ searchYear(java.lang.String[][],\ int,\ java.lang.String)
+comment4.params=myMusic\ arraySize\ search
+comment4.target=java.util.ArrayList\ searchSinger(java.lang.String[][],\ int,\ java.lang.String)
+numComments=5

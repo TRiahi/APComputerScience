@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=cardRank\ cardSuit\ cardPointValue
+comment0.target=Card(java.lang.String,\ java.lang.String,\ int)
+comment0.text=\r\n\ Creates\ a\ new\ <code>Card</code>\ instance.\r\n\r\n\ @param\ cardRank\ \ a\ <code>String</code>\ value\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ containing\ the\ rank\ of\ the\ card\r\n\ @param\ cardSuit\ \ a\ <code>String</code>\ value\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ containing\ the\ suit\ of\ the\ card\r\n\ @param\ cardPointValue\ an\ <code>int</code>\ value\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ containing\ the\ point\ value\ of\ the\ card\r\n
+comment1.params=suit
+comment1.target=java.lang.String\ suit(java.lang.String)
+comment1.text=\r\n\ Accesses\ this\ <code>Card's</code>\ suit.\r\n\ @return\ this\ <code>Card's</code>\ suit.\r\n
+comment2.params=rank
+comment2.target=java.lang.String\ rank(java.lang.String)
+comment2.text=\r\n\ Accesses\ this\ <code>Card's</code>\ rank.\r\n\ @return\ this\ <code>Card's</code>\ rank.\r\n
+comment3.params=pointValue
+comment3.target=int\ pointValue(int)
+comment3.text=\r\n\ Accesses\ this\ <code>Card's</code>\ point\ value.\r\n\ @return\ this\ <code>Card's</code>\ point\ value.\r\n
+numComments=4

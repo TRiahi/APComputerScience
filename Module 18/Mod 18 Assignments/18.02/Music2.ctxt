@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=t\ s\ y
+comment0.target=Music2(java.lang.String,\ java.lang.String,\ int)
+comment1.params=title\ singer\ year
+comment1.target=java.lang.String\ toString(java.lang.String,\ java.lang.String,\ int)
+numComments=2
